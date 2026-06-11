@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 1.1rem;
+}
+
+/* Navegação */
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #dbeafe;
+}
+
+/* Seções */
+section {
+    padding: 60px 10%;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #1e40af;
+}
+
+/* Sobre nós */
+#sobre {
+    background-color: white;
+    text-align: center;
+}
+
+#sobre p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+/* Cursos */
+#cursos {
+    background-color: #f4f6f9;
+}
+
+.cursos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.curso {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.curso:hover {
+    transform: translateY(-8px);
+}
+
+.curso h3 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+.curso p {
+    margin-bottom: 20px;
+}
+
+/* Botão */
+.curso a {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.curso a:hover {
+    background-color: #1e40af;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
