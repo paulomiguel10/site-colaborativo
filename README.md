@@ -1,38 +1,42 @@
-# Workshop Versionamento - Site Colaborativo
+# Workshop de Versionamento - Site Colaborativo
 
-## Descrição do projeto
+## Sobre o Projeto
 
-    O projeto consistena criação de um site instituicional que disponibiliza cursos e será dividido em 5 issues:
+Este projeto tem como objetivo desenvolver um site institucional para disponibilização de cursos, servindo como base para a prática de versionamento de código utilizando Git e GitHub.
 
-    - Issue 1: Criar  cabeçalho da página 
-    - Issue 2: Criar seção Sobre
-    - Issue 3: Criar seção Cursos
-    - Issue 4: Criar rodapé
-    - Issue 5: Melhorar estilo visual com CSS
+As atividades foram divididas em issues para que cada colaborador possa trabalhar de forma independente em sua respectiva funcionalidade.
 
-## Organização do projeto
+## Issues do Projeto
 
-    O projeto foi organizado em diversas branches com suas determinadas funcionalidades, que serão trabalhas individualmente por cada colaborador.
+* **Issue #1:** Criar o cabeçalho da página.
+* **Issue #2:** Criar a seção "Sobre".
+* **Issue #3:** Criar a seção "Cursos".
+* **Issue #4:** Criar o rodapé da página.
+* **Issue #5:** Melhorar o estilo visual utilizando CSS.
 
-    Estão divididas entre:
+## Organização das Branches
 
-     - feature/Criar-secao-sobre
+Cada funcionalidade será desenvolvida em uma branch específica:
 
-     - feature/cabecalho-site
-     
-     - feature/cursos
+* `feature/cabecalho-site`
+* `feature/criar-secao-sobre`
+* `feature/cursos`
+* `feature/melhorar-estilo-visual`
+* `docs/readme`
 
-     - feature/melhorar-estilo-visual
+## Objetivos do Workshop
 
-     - docs/readme
+Durante o desenvolvimento deste projeto, os participantes poderão praticar:
+
+* Uso de branches.
+* Criação de commits.
+* Versionamento de código com Git.
+* Abertura e revisão de Pull Requests.
+* Trabalho colaborativo em equipe.
+* Resolução de conflitos de merge.
 
 ## Considerações Finais
 
-    Esse projeto busca desenvolver as habilidades dos colaboradores de trabalaharem juntos conseguir exercitar as seguintes capacidades:
-        
-        - Noções de commits
-        - Trabalho em equipe
-        - Versionamento de Código
-        - Noções de Pull Requests
+Este projeto foi criado com fins educacionais, buscando proporcionar experiência prática com ferramentas e fluxos de trabalho amplamente utilizados no desenvolvimento de software profissional.
 
  
