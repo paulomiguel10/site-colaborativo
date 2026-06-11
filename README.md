@@ -39,5 +39,3 @@ Durante o desenvolvimento deste projeto, os participantes poderão praticar:
 ## Considerações Finais
 
 Este projeto foi criado com fins educacionais, buscando proporcionar experiência prática com ferramentas e fluxos de trabalho amplamente utilizados no desenvolvimento de software profissional.
-
- 
