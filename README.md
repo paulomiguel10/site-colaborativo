@@ -19,7 +19,8 @@ As atividades foram divididas em issues para que cada colaborador possa trabalha
 Cada funcionalidade será desenvolvida em uma branch específica:
 
 * `feature/cabecalho-site`
-* `feature/criar-secao-sobre`
+* `feature/secao-sobre`
+* `feature/criar-rodape`
 * `feature/cursos`
 * `feature/melhorar-estilo-visual`
 * `docs/readme`
