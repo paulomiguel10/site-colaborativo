@@ -84,14 +84,16 @@ section h2 {
     background-color: #f4f6f9;
 }
 
-.cursos-container {
+.cursos-container,
+.cursos__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 25px;
     margin-top: 30px;
 }
 
-.curso {
+.curso,
+.card {
     background-color: white;
     padding: 25px;
     border-radius: 12px;
@@ -99,21 +101,26 @@ section h2 {
     transition: 0.3s;
 }
 
-.curso:hover {
+.curso:hover,
+.card:hover {
     transform: translateY(-8px);
 }
 
-.curso h3 {
+.curso h3,
+.card h3 {
     color: #2563eb;
     margin-bottom: 15px;
 }
 
-.curso p {
+.curso p,
+.card p {
     margin-bottom: 20px;
 }
 
 /* Botão */
-.curso a {
+.curso a,
+.card a,
+.btn {
     display: inline-block;
     background-color: #2563eb;
     color: white;
@@ -123,12 +130,15 @@ section h2 {
     transition: 0.3s;
 }
 
-.curso a:hover {
+.curso a:hover,
+.card a:hover,
+.btn:hover {
     background-color: #1e40af;
 }
 
 /* Rodapé */
-footer {
+footer,
+.footer {
     background-color: #1e293b;
     color: white;
     text-align: center;

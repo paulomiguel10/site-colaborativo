@@ -19,12 +19,8 @@ As atividades foram divididas em issues para que cada colaborador possa trabalha
 Cada funcionalidade será desenvolvida em uma branch específica:
 
 * `feature/cabecalho-site`
-
-HEAD
-* `feature/criar-secao-sobre`
 * `feature/secao-sobre`
 * `feature/criar-rodape`
-bd86585 (remove secao de cursos da pagina inicial)
 * `feature/cursos`
 * `feature/melhorar-estilo-visual`
 * `docs/readme`
@@ -43,5 +39,3 @@ Durante o desenvolvimento deste projeto, os participantes poderão praticar:
 ## Considerações Finais
 
 Este projeto foi criado com fins educacionais, buscando proporcionar experiência prática com ferramentas e fluxos de trabalho amplamente utilizados no desenvolvimento de software profissional.
-
- 
